@@ -11,7 +11,7 @@ Types of object for hide information:
 * text files
 * and etc.
 
-But images are the most popular cover objects for Steganography and in this work image steganography is adopted. Embedding secret information inside images requires intensive computations, and therefore, designing Steganography in hardware speeds up Steganography. 
+In this project I use image as object for hide information.
 
 ### How it work
 
