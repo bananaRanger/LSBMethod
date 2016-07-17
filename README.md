@@ -44,4 +44,12 @@ When text entering is finished we can encrypt message and save the file.
 
 To decrypt we open image in decrypt tab. And click button "Decrypt".
 
-###It's all!
+##### It's all!
+
+### Screenshots
+
+#### Encrypting
+![](https://psv4.vk.me/c615319/u12148050/docs/01cd08140704/lsb1.png?extra=wcoFRkCWEL4JpUNx2S13ubDxV519feVk2tMhKs7x44gKps_vdCkSA9Q-kvgFDNunT_sVHUOMB2Cxwv7UGFanhUWzR57GTYzEECn8CBjYpm6InfJzzMXX9Q)
+
+#### Decrypting
+![](https://psv4.vk.me/c615319/u12148050/docs/678e13f04222/lsb2.png?extra=klopaMXJfdB6Ay92OyhriEOul3ceR7V3dRMJy-c4awk7Ndi_6fKncaxXCLEB-PnYC1ml8SAw-nT-gkg5D63RPt8yXHoJCiS4IgC8KCOHeelDv27c2cFsEQ)
