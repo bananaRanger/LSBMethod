@@ -2,16 +2,24 @@
 #define UIUTILS_H
 
 #include <QObject>
+#include <QPixmap>
+#include <QPalette>
+#include <QList>
 
-class UIUtils : public QObject
+#define imageWidth 100
+#define imageHeight 100
+
+class UIUtils
 {
-    Q_OBJECT
 public:
-    explicit UIUtils(QObject *parent = nullptr);
 
-signals:
+    static QPixmap pixmap(QString fileName, int imgWidth, int imgHeight);
+    static QPixmap defaultPixmap(QString fileName);
 
-public slots:
+    static QPalette palette(QColor color);
+
+    static QList<QColor> pixColors(QImage image);
+    static void imageColors(QList<QColor> list, QImage &image);
 };
 
 #endif // UIUTILS_H

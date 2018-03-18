@@ -14,11 +14,13 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    lsbencrypt.cpp \
-    lsbdecrypt.cpp
+    uiutils.cpp \
+    messagewrapper.cpp \
+    parser.cpp
 
 HEADERS  += mainwindow.h \
-    lsbencrypt.h \
-    lsbdecrypt.h
+    uiutils.h \
+    messagewrapper.h \
+    parser.h
 
 FORMS    += mainwindow.ui

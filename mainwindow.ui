@@ -40,34 +40,10 @@
         <string>Encrypt</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout">
-        <item row="0" column="0">
-         <layout class="QHBoxLayout" name="horizontalLayout_2">
-          <item>
-           <spacer name="horizontalSpacer">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
-           <widget class="QPushButton" name="encryptOpenButton">
-            <property name="text">
-             <string>Open</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
         <item row="1" column="0">
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
-           <widget class="QLabel" name="imgEncryptLabel">
+           <widget class="QLabel" name="encryptImageLabel">
             <property name="text">
              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a name=&quot;result_box&quot;/&gt;Upload the image&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
@@ -95,10 +71,34 @@ p, li { white-space: pre-wrap; }
           </item>
          </layout>
         </item>
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QPushButton" name="encryptOpenButton">
+            <property name="text">
+             <string>Open</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
         <item row="2" column="0">
          <layout class="QHBoxLayout" name="horizontalLayout">
           <item>
-           <widget class="QLabel" name="imageSizeLabel">
+           <widget class="QLabel" name="encryptMessageLabel">
             <property name="text">
              <string/>
             </property>
@@ -118,7 +118,7 @@ p, li { white-space: pre-wrap; }
            </spacer>
           </item>
           <item>
-           <widget class="QPushButton" name="goEncryptButton">
+           <widget class="QPushButton" name="encryptButton">
             <property name="text">
              <string>Encrypt</string>
             </property>
@@ -160,7 +160,7 @@ p, li { white-space: pre-wrap; }
         <item row="1" column="0">
          <layout class="QHBoxLayout" name="horizontalLayout_4">
           <item>
-           <widget class="QLabel" name="imgDecryptLabel">
+           <widget class="QLabel" name="decryptImageLabel">
             <property name="text">
              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a name=&quot;result_box&quot;/&gt;Upload the image&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
             </property>
@@ -181,22 +181,9 @@ p, li { white-space: pre-wrap; }
         <item row="2" column="0">
          <layout class="QHBoxLayout" name="horizontalLayout_5">
           <item>
-           <spacer name="horizontalSpacer_3">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item>
-           <widget class="QPushButton" name="goDecryptButton">
+           <widget class="QLabel" name="decryptMessageLabel">
             <property name="text">
-             <string>Decrypt</string>
+             <string/>
             </property>
            </widget>
           </item>
