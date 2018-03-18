@@ -72,7 +72,11 @@ At first, we need to get the size of length. Then we read length of the message.
 ### Screenshots
 
 #### Encrypting
-![](https://github.com/bananaRanger/LSBMethod/blob/master/lsb1.png?raw=true)
+![](https://github.com/bananaRanger/LSBMethod/blob/master/encryption.png?raw=true)
 
 #### Decrypting
-![](https://github.com/bananaRanger/LSBMethod/blob/master/lsb2.png?raw=true)
+![](https://github.com/bananaRanger/LSBMethod/blob/master/decryption.png?raw=true)
+
+#### Image loading without encryption
+![](https://github.com/bananaRanger/LSBMethod/blob/master/errorHandler.png?raw=true)
+
